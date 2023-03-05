@@ -1,22 +1,19 @@
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
+import Landing from './components/Landing'
 
 export default function App() {
   return (
     <>
-      <div className="flex h-screen flex-col">
-        <div className="h-16 bg-[#19192C] position-fixed">
+      <div className="w-full h-screen">
+        <div className="sticky top-0 z-50 h-[10%] bg-[#19192C]">
           <Navbar />
         </div>
-        <div className="flex-1 bg-[#19192C] text-center text-4xl">
-          <div className="flex justify-between h-full">
-            <div className="w-1/12 h-full position-fixed bg-[#19192C]">
-              <Sidebar />
-            </div>
-            <div className="w-11/12 h-full bg-red-400">
-              <h1>world</h1>
-            </div>
-          </div>
+        <div className="fixed top-[10%] h-[90%] w-1/12 bg-[#19192C] hidden md:block">
+          <Sidebar />
+        </div>
+        <div className="bg-[#19192C] pl-24 h-[90%] w-full md:float-right md:w-11/12">
+          <Landing />
         </div>
       </div>
     </> 
