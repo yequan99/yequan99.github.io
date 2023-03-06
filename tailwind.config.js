@@ -5,9 +5,11 @@ module.exports = {
   ],
   theme: {
     extend: {},
-    // colors: {
-    //   'midnight': '#19192C'
-    // }
+  },
+  variants: {
+    extend: {
+      visibility: ["group-hover"],
+    },
   },
   plugins: [],
 }

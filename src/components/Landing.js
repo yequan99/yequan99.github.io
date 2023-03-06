@@ -13,15 +13,16 @@ export default function Landing() {
             typeSpeed: 100,
             backSpeed: 100,
             loop: true,
-    });
+        });
 
-    // Destroying
-    return () => {
-      typed.destroy();
-    };
-  }, []);
+        // Destroying
+        return () => {
+        typed.destroy();
+        };
+    }, []);
+    
     return(
-        <div className="flex flex-col-reverse w-full h-full items-center lg:flex-row">
+        <div className="flex flex-col-reverse pl-[10%] w-full h-full items-center lg:flex-row">
             <div className="w-full text-center lg:h-[50%] lg:w-[45%] lg:text-left">
                 <span className="text-xl text-[#ADEFD1FF]" ref={el}></span>
                 <ul>
