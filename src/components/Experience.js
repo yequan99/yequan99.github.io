@@ -43,7 +43,7 @@ export default function Experiences() {
 
     return (
         <div className="w-full h-fit pl-[10%] py-10 bg-[#19192C]">
-            <h1 className="text-5xl text-[#ADEFD1FF] pb-10">Experience</h1>
+            <h1 className="text-5xl text-[#ADEFD1FF] pb-10">Experiences</h1>
             <div>
                 <Timeline sx={{[`& .${timelineItemClasses.root}:before`]: {flex: 0, padding: 0}}}>
                     {experiences.map((item,index) => (
