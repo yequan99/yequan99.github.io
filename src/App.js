@@ -2,6 +2,7 @@ import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
 import Landing from './components/Landing'
 import About from './components/About'
+import Experience from './components/Experience'
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <div className="h-full w-full bg-[#19192C] md:float-right md:w-11/12">
           <Landing />
           <About />
+          <Experience />
         </div>
       </div>
     </> 

@@ -7,7 +7,7 @@ export default function About() {
     const framework = [django, react, git, psql, mysql, snowflake]
 
     return(
-        <div className="flex flex-col w-full h-full pl-[10%] pt-10 bg-[#19192C] lg:flex-row">
+        <div className="flex flex-col w-full h-fit pl-[10%] py-10 bg-[#19192C] lg:flex-row">
             <div className="w-full lg:w-[45%]">
                 <h1 className="text-5xl text-[#ADEFD1FF] pb-10">About Me</h1>
                 <div className="w-[85%]">
