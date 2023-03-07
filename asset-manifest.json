@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.4cfb3ea2.css",
-    "main.js": "/static/js/main.ac015ad2.js",
+    "main.css": "/static/css/main.2b54217a.css",
+    "main.js": "/static/js/main.70211f78.js",
     "static/js/787.d1d4a2c2.chunk.js": "/static/js/787.d1d4a2c2.chunk.js",
     "static/media/govtech.gif": "/static/media/govtech.faa5c4fec0f08d058136.gif",
     "static/media/matplotlib.png": "/static/media/matplotlib.1f3cb36363d0eb2c163f.png",
@@ -23,12 +23,12 @@
     "static/media/css.svg": "/static/media/css.9290f4b3dc092d59345683db8653d29f.svg",
     "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.4cfb3ea2.css.map": "/static/css/main.4cfb3ea2.css.map",
-    "main.ac015ad2.js.map": "/static/js/main.ac015ad2.js.map",
+    "main.2b54217a.css.map": "/static/css/main.2b54217a.css.map",
+    "main.70211f78.js.map": "/static/js/main.70211f78.js.map",
     "787.d1d4a2c2.chunk.js.map": "/static/js/787.d1d4a2c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4cfb3ea2.css",
-    "static/js/main.ac015ad2.js"
+    "static/css/main.2b54217a.css",
+    "static/js/main.70211f78.js"
   ]
 }
