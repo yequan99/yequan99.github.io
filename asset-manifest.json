@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2b54217a.css",
-    "main.js": "/static/js/main.70211f78.js",
+    "main.css": "/static/css/main.45ac6f03.css",
+    "main.js": "/static/js/main.f27266c7.js",
     "static/js/787.d1d4a2c2.chunk.js": "/static/js/787.d1d4a2c2.chunk.js",
     "static/media/govtech.gif": "/static/media/govtech.faa5c4fec0f08d058136.gif",
     "static/media/matplotlib.png": "/static/media/matplotlib.1f3cb36363d0eb2c163f.png",
@@ -10,7 +10,7 @@
     "static/media/psql.png": "/static/media/psql.c8891cc79d21bc263a06.png",
     "static/media/photo.jpg": "/static/media/photo.c97cac9b3a12504749e4.jpg",
     "static/media/C.png": "/static/media/C.e579053da5e658b7c9e6.png",
-    "static/media/TanYeQuan_Resume.pdf": "/static/media/TanYeQuan_Resume.5f56d4fd21e437f75753.pdf",
+    "static/media/TanYeQuan_Resume.pdf": "/static/media/TanYeQuan_Resume.3718ebe5a9f59e4d2c10.pdf",
     "static/media/snowflake.png": "/static/media/snowflake.54bc6a7f75bae705d1ec.png",
     "static/media/seaborn.png": "/static/media/seaborn.68b552ef9e46b4916dbb.png",
     "static/media/gitlab.png": "/static/media/gitlab.9abff7bc0bbef46b4e2d.png",
@@ -23,12 +23,12 @@
     "static/media/css.svg": "/static/media/css.9290f4b3dc092d59345683db8653d29f.svg",
     "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.2b54217a.css.map": "/static/css/main.2b54217a.css.map",
-    "main.70211f78.js.map": "/static/js/main.70211f78.js.map",
+    "main.45ac6f03.css.map": "/static/css/main.45ac6f03.css.map",
+    "main.f27266c7.js.map": "/static/js/main.f27266c7.js.map",
     "787.d1d4a2c2.chunk.js.map": "/static/js/787.d1d4a2c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b54217a.css",
-    "static/js/main.70211f78.js"
+    "static/css/main.45ac6f03.css",
+    "static/js/main.f27266c7.js"
   ]
 }
