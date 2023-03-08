@@ -47,7 +47,7 @@ export default function Experiences() {
             <div className="w-[90%]">
                 <Timeline sx={{[`& .${timelineItemClasses.root}:before`]: {flex: 0, padding: 0}}}>
                     {experiences.map((item,index) => (
-                        <TimelineItem>
+                        <TimelineItem key={index}>
                             <TimelineSeparator>
                                 <TimelineDot />
                                 <TimelineConnector />

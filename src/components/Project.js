@@ -2,10 +2,8 @@ import { react, nodejs } from '../assets/logos.js';
 import proj_img from '../assets/proj_img.png';
 import Logo from './Logo.js';
 import Card from '@mui/material/Card';
-import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 
 export default function Projects() {
 
@@ -19,8 +17,7 @@ export default function Projects() {
                     inventory.
                 </p>
             ),
-            skills: [react, nodejs],
-            link: ""
+            skills: [react, nodejs]
         },
         {
             name: 'Sentimental Analysis',
@@ -31,23 +28,22 @@ export default function Projects() {
                     place to sieve out relevant data.
                 </p>
             ),
-            skills: [],
-            link: ""
+            skills: []
         }
     ]
 
     return (
-        <div className="w-full h-fit pl-[10%] py-10 bg-[#19192C]">
+        <div className="w-full h-full pl-[10%] py-10 bg-[#19192C]">
             <h1 className="text-5xl text-[#ADEFD1FF] pb-10">Projects</h1>
-            <div className="flex flex-col h-full w-[90%] lg:flex-row lg:w-[85%]">
+            <div className="flex flex-col w-[90%] lg:grid lg:grid-cols-2 lg:gap-10 lg:w-[80%]">
                 {projects.map((item,index) => (
-                    <div className="pr-10 pb-10 h-full w-full lg:w-[30rem] lg:pb-0">
+                    <div className="pb-10 h-full w-full lg:min-w-[20rem] lg:pb-0">
                         <Card className="h-full" key={index}>
                             <CardMedia
                                 sx={{ height: 200 }}
                                 image={proj_img}
                             />
-                            <CardContent sx={{ height: 280 }}>
+                            <CardContent>
                                 <h1 className="text-4xl font-bold text-center">{item.name}</h1>
                                 <p className="py-4">{item.description}</p>
                                 <Logo logos={item.skills} />
