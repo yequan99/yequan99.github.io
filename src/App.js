@@ -15,11 +15,11 @@ export default function App() {
         <div className="fixed top-[10%] h-[90%] w-1/12 bg-[#19192C] hidden md:block">
           <Sidebar />
         </div>
-        <div className="h-full md:float-right md:w-11/12">
+        <div className="absolute bottom-0 right-0 h-[90%] md:float-right md:w-11/12">
           <section id="landing" className="h-full w-full bg-[#19192C]"><Landing /></section>
-          <section id="about" className="w-full pt-6 bg-[#19192C]"><About /></section>
-          <section id="experiences" className="w-full pt-6 bg-[#19192C]"><Experiences /></section>
-          <section id="projects" className="w-full pt-6 bg-[#19192C]"><Projects /></section>
+          <section id="about" className="w-full pt-12 bg-[#19192C]"><About /></section>
+          <section id="experiences" className="w-full pt-12 bg-[#19192C]"><Experiences /></section>
+          <section id="projects" className="w-full pt-12 bg-[#19192C]"><Projects /></section>
         </div>
       </div>
     </> 
