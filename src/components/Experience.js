@@ -6,7 +6,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import MH_pic from '../assets/mann_hummel_logo.png';
 import Govtech from '../assets/govtech.gif';
-import { django, matplotlib, pandas, python, seaborn, powerBi, gitlab, nextjs, typescript } from "../assets/logos.js";
+import { django, matplotlib, pandas, python, seaborn, powerBi, gitlab, nextjs, typescript, go } from "../assets/logos.js";
 import Logo from './Logo.js';
 
 export default function Experiences() {
@@ -15,15 +15,15 @@ export default function Experiences() {
         {
             company: "Government Technology Agency",
             title: "Software Engineering Intern",
-            date: 'Jan 2023 - May 2023',
+            date: 'Jan 2023 - July 2023',
             image: Govtech,
             description:(
                 <ul className="list-disc">
                     <li>Built a CI/CD pipeline for repository migration using GitLab and incorporating ChatOps automation</li>
-                    <li>Developed a DevSecOps scorecard dashboard using Nextjs to ensure projects comply to best practices</li>
+                    <li>Developed a DevSecOps maturity report to track whether Gitlab projects comply to industry security best practices (IM8, CNCF, SLSA, OWASP). Front-end is using nextJS and react, while back-end uses Golang.</li>
                 </ul>
             ),
-            skills: [gitlab, nextjs, typescript]
+            skills: [gitlab, nextjs, typescript, go]
         },
         {
             company: 'Mann+Hummel Ventures Pte Ltd',
@@ -44,7 +44,7 @@ export default function Experiences() {
     return (
         <div className="w-full h-fit pl-[10%] py-10 bg-[#19192C]">
             <h1 className="text-5xl text-[#ADEFD1FF] pb-10">Experiences</h1>
-            <div className="w-[90%]">
+            <div className="w-[75%]">
                 <Timeline sx={{[`& .${timelineItemClasses.root}:before`]: {flex: 0, padding: 0}}}>
                     {experiences.map((item,index) => (
                         <TimelineItem key={index}>

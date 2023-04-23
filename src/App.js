@@ -8,7 +8,7 @@ import Projects from './components/Project'
 export default function App() {
   return (
     <>
-      <div className="w-full h-screen">
+      <div className="w-full h-screen bg-[#19192C]">
         <div className="fixed w-full top-0 z-50 h-[10%] bg-[#19192C]">
           <Navbar />
         </div>
