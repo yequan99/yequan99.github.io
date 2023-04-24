@@ -24,13 +24,13 @@ export default function Landing() {
     return(
         <div className="flex flex-col-reverse w-full h-full items-center lg:pb-16 lg:pl-[10%] lg:flex-row">
             <div className="w-full text-center lg:h-fit lg:w-[45%] lg:text-left">
-                <span className="text-xl text-[#ADEFD1FF] font-mono" ref={el}></span>
+                <span className="text-xl text-maroon" ref={el} />
                 <ul>
-                    <li className="pt-10 text-6xl text-[#ADEFD1FF] font-mono">Tan Ye Quan</li>
-                    <li className="pt-10 pb-12 text-3xl font-mono text-[#ADEFD1FF]">Aspiring Software Engineer</li>
+                    <li className="pt-10 text-6xl text-gray-200">Tan Ye Quan</li>
+                    <li className="pt-10 pb-12 text-4xl text-beige">Aspiring Software Engineer</li>
                 </ul>
-                <div className="block m-auto border-2 border-[#ADEFD1FF] rounded-lg w-32 cursor-pointer text-center transition ease-in-out delay-350 hover:-translate-y-1 lg:m-0">
-                    <a className="text-[#ADEFD1FF] leading-[4rem] w-full h-full block" href={resume} target="_blank" rel="noreferrer">Resume</a>
+                <div className="block m-auto border-2 border-white rounded-lg w-32 cursor-pointer text-center transition ease-in-out delay-350 hover:-translate-y-1 lg:m-0">
+                    <a className="text-gray-200 leading-[4rem] w-full h-full block" href={resume} target="_blank" rel="noreferrer">Resume</a>
                 </div>
             </div>
             <div className="w-full pb-10 lg:h-fit lg:w-[55%] lg:pb-0">

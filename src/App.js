@@ -8,18 +8,18 @@ import Projects from './components/Project'
 export default function App() {
   return (
     <>
-      <div className="w-full h-screen bg-[#19192C]">
-        <div className="fixed w-full top-0 z-50 h-[10%] bg-[#19192C]">
+      <div className="w-full h-screen font-pathway bg-navy">
+        <div className="fixed w-full top-0 z-50 h-[10%] bg-navy">
           <Navbar />
         </div>
-        <div className="fixed top-[10%] h-[90%] w-1/12 bg-[#19192C] hidden md:block">
+        <div className="fixed top-[10%] h-[90%] w-1/12 bg-navy hidden md:block">
           <Sidebar />
         </div>
         <div className="absolute bottom-0 right-0 h-[90%] md:float-right md:w-11/12">
-          <section id="landing" className="h-full w-full bg-[#19192C]"><Landing /></section>
-          <section id="about" className="w-full pt-12 bg-[#19192C]"><About /></section>
-          <section id="experiences" className="w-full pt-12 bg-[#19192C]"><Experiences /></section>
-          <section id="projects" className="w-full pt-12 bg-[#19192C]"><Projects /></section>
+          <section id="landing" className="h-full w-full bg-navy"><Landing /></section>
+          <section id="about" className="w-full pt-12 bg-navy"><About /></section>
+          <section id="experiences" className="w-full pt-12 bg-navy"><Experiences /></section>
+          <section id="projects" className="w-full pt-12 bg-navy"><Projects /></section>
         </div>
       </div>
     </> 

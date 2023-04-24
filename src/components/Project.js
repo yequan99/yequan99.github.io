@@ -33,8 +33,8 @@ export default function Projects() {
     ]
 
     return (
-        <div className="w-full h-full pl-[10%] py-10 bg-[#19192C]">
-            <h1 className="text-5xl text-[#ADEFD1FF] pb-10">Projects</h1>
+        <div className="w-full h-full pl-[10%] py-10">
+            <h1 className="text-5xl text-beige pb-10">Projects</h1>
             <div className="flex flex-col w-[90%] lg:grid lg:grid-cols-2 lg:gap-10 lg:w-[80%]">
                 {projects.map((item,index) => (
                     <div className="pb-10 h-full w-full lg:min-w-[20rem] lg:pb-0">

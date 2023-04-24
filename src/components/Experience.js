@@ -42,8 +42,8 @@ export default function Experiences() {
     ]
 
     return (
-        <div className="w-full h-fit pl-[10%] py-10 bg-[#19192C]">
-            <h1 className="text-5xl text-[#ADEFD1FF] pb-10">Experiences</h1>
+        <div className="w-full h-fit pl-[10%] py-10">
+            <h1 className="text-5xl text-beige pb-10">Experiences</h1>
             <div className="w-[75%]">
                 <Timeline sx={{[`& .${timelineItemClasses.root}:before`]: {flex: 0, padding: 0}}}>
                     {experiences.map((item,index) => (
@@ -53,12 +53,12 @@ export default function Experiences() {
                                 <TimelineConnector />
                             </TimelineSeparator>
                             <TimelineContent>
-                                <div className="text-[#ADEFD1FF]">
-                                    <h3 className="text-[#ADEFD1FF]">{item.date}</h3>
+                                <div className="font-pathway">
+                                    <h3 className="text-gray-200">{item.date}</h3>
                                     <img className="h-[5.5rem] w-auto py-4" src={item.image} alt={index} />
-                                    <h3 className="italic">{item.company}</h3>
-                                    <h3 className="">{item.title}</h3>
-                                    <p className="py-4 pl-[1.1rem]">{item.description}</p>
+                                    <h3 className="italic text-maroon">{item.company}</h3>
+                                    <h3 className="text-beige">{item.title}</h3>
+                                    <p className="py-4 pl-[1.1rem] text-gray-200">{item.description}</p>
                                     <Logo logos={item.skills} />
                                 </div>
                             </TimelineContent>
