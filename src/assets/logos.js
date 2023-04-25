@@ -19,6 +19,7 @@ import nodejsLogo from './logos/nodejs.png';
 import typescriptLogo from './logos/typescript.png';
 import nextjsLogo from './logos/nextjs.png';
 import goLogo from './logos/go.svg';
+import dockerLogo from './logos/docker.png';
 
 export const django = { names: "Django", img: djangoLogo };
 export const matplotlib = { names: "Matplotlib", img: matplotlibLogo };
@@ -41,3 +42,4 @@ export const nodejs = { names: "NodeJS", img: nodejsLogo};
 export const typescript = { names: "Typescript", img: typescriptLogo};
 export const nextjs = { names: "Next.js", img: nextjsLogo};
 export const go = { names: "Golang", img: goLogo};
+export const docker = { names: "Docker", img: dockerLogo};

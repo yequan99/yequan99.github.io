@@ -1,10 +1,10 @@
 import Logo from './Logo.js';
-import { python, javascript, typescript, java, c, django, react, snowflake, mysql, git, psql, go } from '../assets/logos.js';
+import { python, javascript, typescript, java, c, django, react, git, go, nextjs, docker } from '../assets/logos.js';
 
 export default function About() {
 
     const languages = [python, javascript, typescript, go, java, c]
-    const framework = [django, react, git, psql, mysql, snowflake]
+    const framework = [django, react, nextjs, git, docker]
 
     return(
         <div className="flex flex-col w-full h-fit pl-[10%] py-10 lg:flex-row">
