@@ -31,7 +31,7 @@ export default function About() {
                     <Logo logos={languages} />
                 </div>
                 <h1 className="text-xl text-gray-200 py-5">Frameworks & Tools</h1>
-                <div className="w-80">
+                <div className="w-full">
                     <Logo logos={framework} />
                 </div>
             </div>
