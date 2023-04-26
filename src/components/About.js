@@ -24,10 +24,10 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className="pt-10 w-full lg:w-[55%] lg:pt-0">
+            <div className="pt-10 w-[85%] lg:w-[30%] lg:pt-0">
                 <h1 className="text-5xl text-beige pb-10">Skills</h1>
                 <h1 className="text-xl text-gray-200 pb-5">Languages</h1>
-                <div className="w-80">
+                <div className="w-full">
                     <Logo logos={languages} />
                 </div>
                 <h1 className="text-xl text-gray-200 py-5">Frameworks & Tools</h1>
