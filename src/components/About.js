@@ -12,8 +12,8 @@ export default function About() {
                 <h1 className="text-5xl text-beige pb-10">About Me</h1>
                 <div className="w-[85%] text-gray-200">
                     <p className="pb-5 text-xl text-justify">
-                        I am Ye Quan, a final year Computer Science undergraduate at Nanyang Technological University (NTU) 
-                        majoring in Data Science and Artificial Intelligence.
+                        I am Ye Quan, a final year Computer Science undergraduate at Nanyang Technological University (NTU) and I am 
+                        really passionate in the fields of Software Engineering and DevOps.
                     </p>
                     <p className="text-xl text-justify">
                         Since young, I am always curious to learn and explore new things. Inquisitiveness has been part of me since
@@ -27,9 +27,13 @@ export default function About() {
             <div className="pt-10 w-full lg:w-[55%] lg:pt-0">
                 <h1 className="text-5xl text-beige pb-10">Skills</h1>
                 <h1 className="text-xl text-gray-200 pb-5">Languages</h1>
-                <Logo logos={languages} />
+                <div className="w-80">
+                    <Logo logos={languages} />
+                </div>
                 <h1 className="text-xl text-gray-200 py-5">Frameworks & Tools</h1>
-                <Logo logos={framework} />
+                <div className="w-80">
+                    <Logo logos={framework} />
+                </div>
             </div>
         </div>
     );
