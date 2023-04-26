@@ -7,4 +7,4 @@
 - Javascript
 - Tailwind CSS
 
-You can access my website by clicking [here](yequan99.github.io)
+You can access my website by clicking [here](https://yequan99.github.io/)
