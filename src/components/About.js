@@ -8,7 +8,7 @@ export default function About() {
 
     return(
         <div className="flex flex-col w-full h-fit pl-[10%] py-10 lg:flex-row">
-            <div className="w-full lg:w-[45%]">
+            <div className="w-full lg:w-[50%]">
                 <h1 className="text-5xl text-beige pb-10">About Me</h1>
                 <div className="w-[85%] text-gray-200">
                     <p className="pb-5 text-xl text-justify">
@@ -24,7 +24,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className="pt-10 w-[85%] lg:w-[30%] lg:pt-0">
+            <div className="pt-10 w-[85%] lg:w-[35%] lg:pt-0">
                 <h1 className="text-5xl text-beige pb-10">Skills</h1>
                 <h1 className="text-xl text-gray-200 pb-5">Languages</h1>
                 <div className="w-full">
