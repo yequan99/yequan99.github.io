@@ -20,6 +20,9 @@ export default function App() {
           <section id="about" className="w-full pt-12 bg-navy"><About /></section>
           <section id="experiences" className="w-full pt-12 bg-navy"><Experiences /></section>
           <section id="projects" className="w-full pt-12 bg-navy"><Projects /></section>
+          <div className="bg-navy md:hidden">
+            <Sidebar />
+          </div>
         </div>
       </div>
     </> 

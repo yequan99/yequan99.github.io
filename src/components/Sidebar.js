@@ -10,19 +10,22 @@ export default function Sidebar() {
 
     return (
         <div className="flex flex-col w-full h-full">
+            <div className="md:hidden text-center text-gray-400">
+                <h1 className="text-xl pb-4">Let's stay connected!</h1>
+            </div>
             <div className="flex mt-auto w-full justify-center">
                 <ul>
-                    <li className="pb-4">
+                    <li className="inline-block md:block pb-4 pr-4 md:pr-0">
                         <a href={socialIcons.github} target="_blank" rel="noopener noreferrer">
                             <UilGithub className="text-gray-400 transition ease-in-out delay-350 hover:-translate-y-1" size="2.5rem" />
                         </a>
                     </li>
-                    <li className="pb-4">
+                    <li className="inline-block md:block pb-4 pr-4 md:pr-0">
                         <a href={socialIcons.linkedin} target="_blank" rel="noopener noreferrer">
                             <UilLinkedin className="text-gray-400 transition ease-in-out delay-350 hover:-translate-y-1" size="2.5rem" />
                         </a>
                     </li>
-                    <li className="pb-4">
+                    <li className="inline-block md:block pb-4 pr-4 md:pr-0">
                         <a href={socialIcons.email} target="_blank" rel="noopener noreferrer">
                             <UilEnvelopeAlt className="text-gray-400 transition ease-in-out delay-350 hover:-translate-y-1" size="2.5rem" />
                         </a>
