@@ -27,7 +27,7 @@ export default function Experiences() {
                     </ul>
                     <p className="underline pb-2">DevSecOps Maturity Report</p>
                     <ul className="list-disc pl-4">
-                        <li>Developed a DevSecOps Maturity Report that will be tracks whether projects comply to the industry standards (IM8, CNCF, SLSA, OWASP)</li>
+                        <li>Developed a DevSecOps Maturity Report that tracks whether projects comply to the industry standards (IM8, CNCF, SLSA, OWASP)</li>
                         <li>Frontend utilises NextJS and ReactJS, while backend is built on top of Golang</li>
                         <li>Incorporated Gitlab's CI/CD Pipeline for more seamless code integrations and deployments</li>
                     </ul>
