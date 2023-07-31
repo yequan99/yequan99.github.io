@@ -6,7 +6,7 @@ import TimelineContent from '@mui/lab/TimelineContent';
 import TimelineDot from '@mui/lab/TimelineDot';
 import MH_pic from '../assets/mann_hummel_logo.png';
 import Govtech from '../assets/govtech.gif';
-import { django, matplotlib, pandas, python, seaborn, powerBi, gitlab, nextjs, typescript, go } from "../assets/logos.js";
+import { django, matplotlib, pandas, python, seaborn, powerBi, gitlab, nextjs, typescript, go, docker } from "../assets/logos.js";
 import Logo from './Logo.js';
 
 export default function Experiences() {
@@ -15,15 +15,25 @@ export default function Experiences() {
         {
             company: "Government Technology Agency",
             title: "Software Engineering Intern",
-            date: 'Jan 2023 - July 2023',
+            date: 'Jan 2023 - Present',
             image: Govtech,
             description:(
-                <ul className="list-disc">
-                    <li>Built a CI/CD pipeline for repository migration using GitLab and incorporating ChatOps automation</li>
-                    <li>Developed a DevSecOps maturity report to track whether Gitlab projects comply to industry security best practices (IM8, CNCF, SLSA, OWASP). Front-end is using nextJS and react, while back-end uses Golang.</li>
-                </ul>
+                <>
+                    <p className="pb-2">Being part of SHIP-HATS within SGTS (Singapore Government Tech Stack), I was tasked with the following projects:</p>
+                    <p className="underline pb-2">ChatOps Automation</p>
+                    <ul className="list-disc pl-4 pb-2">
+                        <li>Developed an automation tool utilising Workato Slackbot, Gitlab CI/CD and AWS Lambda functions to migrate repositories from Bitbucket to Gitlab</li>
+                        <li>Greatly improved the efficiency of migration specialists by 1500 man hours</li>
+                    </ul>
+                    <p className="underline pb-2">DevSecOps Maturity Report</p>
+                    <ul className="list-disc pl-4">
+                        <li>Developed a DevSecOps Maturity Report that will be tracks whether projects comply to the industry standards (IM8, CNCF, SLSA, OWASP)</li>
+                        <li>Frontend utilises NextJS and ReactJS, while backend is built on top of Golang</li>
+                        <li>Incorporated Gitlab's CI/CD Pipeline for more seamless code integrations and deployments</li>
+                    </ul>
+                </>
             ),
-            skills: [gitlab, nextjs, typescript, go]
+            skills: [gitlab, nextjs, typescript, go, docker]
         },
         {
             company: 'Mann+Hummel Ventures Pte Ltd',
@@ -31,11 +41,17 @@ export default function Experiences() {
             date: 'May 2022 - July 2022',
             image: MH_pic,
             description:(
-                <ul className="list-disc">
-                    <li>Spearheaded the development of a Data Input Tool using Django Framework and hosted on AWS EC2 using RDS(PostgreSQL) </li>
-                    <li>Analysed data to identify trends and key features that made machine learning model outperform workers' prediction in stocking up inventories</li>
-                    <li>Applied agile methodology</li>
-                </ul>
+                <>
+                    <p className="pb-2">Being part of the Data Science and Analytics Team, I was tasked with the following project:</p>
+                    <p className="underline pb-2">Data Input Tool</p>
+                    <ul className="list-disc pl-4 pb-2">
+                        <li>Developed a data input tool using Django framework and hosted on AWS EC2 using RDS(PostgresQL)</li>
+                    </ul>
+                    <p className="underline pb-2">Data Analysis</p>
+                    <ul className="list-disc pl-4">
+                        <li>Analysed data to identify trends and key features that made machine learning model outperform workers' prediction in stocking up inventories</li>
+                    </ul>
+                </>
             ),
             skills: [python, django, pandas, matplotlib, seaborn, powerBi]
         }
@@ -44,7 +60,7 @@ export default function Experiences() {
     return (
         <div className="w-full h-fit pl-[10%] py-10">
             <h1 className="text-5xl text-beige pb-10">Experiences</h1>
-            <div className="w-[75%]">
+            <div className="w-[90%] lg:w-[75%]">
                 <Timeline sx={{[`& .${timelineItemClasses.root}:before`]: {flex: 0, padding: 0}}}>
                     {experiences.map((item,index) => (
                         <TimelineItem key={index}>
@@ -58,7 +74,7 @@ export default function Experiences() {
                                     <img className="h-[5.5rem] w-auto py-4" src={item.image} alt={index} />
                                     <h3 className="italic text-maroon">{item.company}</h3>
                                     <h3 className="text-beige">{item.title}</h3>
-                                    <p className="py-4 pl-[1.1rem] text-gray-200">{item.description}</p>
+                                    <p className="py-4 text-gray-200">{item.description}</p>
                                     <Logo logos={item.skills} />
                                 </div>
                             </TimelineContent>

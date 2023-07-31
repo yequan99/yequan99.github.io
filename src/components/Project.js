@@ -1,4 +1,4 @@
-import { react, nodejs } from '../assets/logos.js';
+import { react, nodejs, tailwind, expressjs } from '../assets/logos.js';
 import proj_img from '../assets/proj_img.png';
 import Logo from './Logo.js';
 import Card from '@mui/material/Card';
@@ -8,6 +8,17 @@ import CardMedia from '@mui/material/CardMedia';
 export default function Projects() {
 
     const projects = [
+        {
+            name: 'XV Mart',
+            description: (
+                <p>
+                    XV Mart is a web-reponsive online mini-mart for NTU Hall 15 residents to make purchases of late night snacks online instead of going all
+                    the way to the physical store. It is a web application built using ReactJS, TailwindCSS and ExpressJS. Aim of this project is to improve
+                    end-toend operational efficiency by reducing the number of members required to man the physical store.
+                </p>
+            ),
+            skills: [react, tailwind, nodejs, expressjs]
+        },
         {
             name: 'Recipely',
             description: (

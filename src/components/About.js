@@ -24,7 +24,7 @@ export default function About() {
                     </p>
                 </div>
             </div>
-            <div className="pt-10 w-[85%] lg:w-[35%] lg:pt-0">
+            <div className="pt-10 w-[95%] lg:w-[35%] lg:pt-0">
                 <h1 className="text-5xl text-beige pb-10">Skills</h1>
                 <h1 className="text-xl text-gray-200 pb-5">Languages</h1>
                 <div className="w-full">
