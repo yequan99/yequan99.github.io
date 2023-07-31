@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.cba72b64.css",
-    "main.js": "/static/js/main.714cb399.js",
+    "main.css": "/static/css/main.94e9c1bf.css",
+    "main.js": "/static/js/main.245c9053.js",
     "static/js/787.d1d4a2c2.chunk.js": "/static/js/787.d1d4a2c2.chunk.js",
     "static/media/govtech.gif": "/static/media/govtech.faa5c4fec0f08d058136.gif",
     "static/media/matplotlib.png": "/static/media/matplotlib.1f3cb36363d0eb2c163f.png",
     "static/media/react.png": "/static/media/react.81ed438b18e24116794d.png",
     "static/media/proj_img.png": "/static/media/proj_img.ba9458794dca1c746ef2.png",
+    "static/media/TanYeQuan_Resume.pdf": "/static/media/TanYeQuan_Resume.6729dbda48138c9b8ee7.pdf",
     "static/media/psql.png": "/static/media/psql.c8891cc79d21bc263a06.png",
     "static/media/photo.jpg": "/static/media/photo.c97cac9b3a12504749e4.jpg",
     "static/media/C.png": "/static/media/C.e579053da5e658b7c9e6.png",
-    "static/media/TanYeQuan_Resume.pdf": "/static/media/TanYeQuan_Resume.13b795d65b4336d34245.pdf",
     "static/media/snowflake.png": "/static/media/snowflake.54bc6a7f75bae705d1ec.png",
     "static/media/seaborn.png": "/static/media/seaborn.68b552ef9e46b4916dbb.png",
     "static/media/gitlab.png": "/static/media/gitlab.9abff7bc0bbef46b4e2d.png",
@@ -20,17 +20,18 @@
     "static/media/nextjs.png": "/static/media/nextjs.48ddc8121a0fcb543d64.png",
     "static/media/docker.png": "/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/java.png": "/static/media/java.f5dd86c3ef6ef3f85acf.png",
+    "static/media/expressjs.png": "/static/media/expressjs.b44f5a4b0ab040328aac.png",
     "static/media/go.svg": "/static/media/go.9bfcdb42d5ac545db17e166f7fefa3ca.svg",
     "static/media/django.webp": "/static/media/django.f1a6f0e86f2b3d314917.webp",
     "static/media/css.svg": "/static/media/css.9290f4b3dc092d59345683db8653d29f.svg",
     "index.html": "/index.html",
     "static/media/html.svg": "/static/media/html.f318c8b1d5945fa9adc827ae94849cb1.svg",
-    "main.cba72b64.css.map": "/static/css/main.cba72b64.css.map",
-    "main.714cb399.js.map": "/static/js/main.714cb399.js.map",
+    "main.94e9c1bf.css.map": "/static/css/main.94e9c1bf.css.map",
+    "main.245c9053.js.map": "/static/js/main.245c9053.js.map",
     "787.d1d4a2c2.chunk.js.map": "/static/js/787.d1d4a2c2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cba72b64.css",
-    "static/js/main.714cb399.js"
+    "static/css/main.94e9c1bf.css",
+    "static/js/main.245c9053.js"
   ]
 }
